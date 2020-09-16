@@ -11,15 +11,15 @@ namespace IntroductionToUnitTesting.Functions
             Console.Clear();
             Console.WriteLine("Adding numbers");
 
-            var num1 = int.Parse(consoleWriter.CaptureInput("first"));
-            var num2 = int.Parse(consoleWriter.CaptureInput("second"));
+            var num1 = double.Parse(consoleWriter.CaptureInput("first"));
+            var num2 = double.Parse(consoleWriter.CaptureInput("second"));
 
             var result = AddTwoNumbers(num1, num2);
 
             consoleWriter.DisplayResult(result);
         }
 
-        public static int AddTwoNumbers(int num1, int num2)
+        public static double AddTwoNumbers(double num1, double num2)
         {
             return num1 + num2;
         }

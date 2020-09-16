@@ -31,7 +31,7 @@ namespace IntroductionToUnitTesting
                     Addition.AddNumbers();
                     return true;
                 case "2":
-                    Console.WriteLine("No exist yet");
+                    Subtraction.SubtractNumbers();
                     return true;
                 case "3":
                     return false;

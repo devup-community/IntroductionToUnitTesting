@@ -10,7 +10,7 @@ namespace IntroductionToUnitTesting
             return Console.ReadLine();
         }
 
-        public void DisplayResult(int result)
+        public void DisplayResult(double result)
         {
             Console.WriteLine($"\r\nResult of the two numbers is: {result}");
             Console.Write("\r\nPress Enter to return to Main Menu");
